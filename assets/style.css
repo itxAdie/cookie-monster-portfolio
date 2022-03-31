@@ -1,0 +1,55 @@
+/* 
+
+Project Name: Cookie Monster Portfolio
+Client: Cookie Monster
+Author: Adie
+Developed @ One Month in NYC 
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: green;
+	background: url('../assets/images/cookie-monster.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; 
+    /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    /* font-family: 'Cookie', cursive; */
+}
+/* img{
+    float: right;
+    position: relative;
+} */
+#container{
+    /* padding-top: -10px; */
+    background-color: black;
+    width: 450px;
+    height: fit-content;
+    color: white;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+}
+h3{
+    font-size: 32px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+p{
+    padding: 15px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
